@@ -21,7 +21,7 @@ This Python program automates changing the voice region for a Discord channel or
 ## Usage
 
 ### Command-Line Arguments
-- Or use the attack.bat
+- Or run the `attack.bat`
 - `--token`: Path to a file containing the bot token (required).
 - `--guild`: Guild (server) ID if applicable (optional).
 
