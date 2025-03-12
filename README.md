@@ -11,7 +11,7 @@ This Python program automates changing the voice region for a Discord channel or
 ## Prerequisites
 
 1. **Python 3.x**: Ensure Python is installed on your system.
-2. **Discord Bot Token**: Obtain a valid bot token from the [Discord Developer Portal](https://discord.com/developers/applications).
+2. **Discord Client Token**: Obtain a valid token from the DIscord Website (NetworkTab search for  Authorization).
 3. **Channel ID**: Identify the channel ID where the voice region changes should be applied.
 4. **Dependencies**: Install required Python packages using:
    ```bash
@@ -21,7 +21,7 @@ This Python program automates changing the voice region for a Discord channel or
 ## Usage
 
 ### Command-Line Arguments
-
+- Or use the attack.bat
 - `--token`: Path to a file containing the bot token (required).
 - `--guild`: Guild (server) ID if applicable (optional).
 
@@ -69,13 +69,12 @@ Successfully changed region to india.
 
 ## Configuration
 
-- **Token File**: Save your bot token in a plain text file. Ensure the file path is correct when using the `--token` argument.
+- **Token File**: Save your token in a plain text file. Ensure the file path is correct when using the `--token` argument.
 - **Regions**: Modify the `regions` list in the script to include or exclude specific regions.
 
 ## Security
 
-- **Token Safety**: Do not share your bot token. Treat it like a password.
-- **Discord API Guidelines**: Ensure your usage complies with the [Discord Terms of Service](https://discord.com/terms).
+- **Token Safety**: Do not share your token. Treat it like a password.
 
 ## Disclaimer
 
